@@ -1,10 +1,34 @@
 .App {
   text-align: center;
+  margin: 1vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+#SearchBar{
+height:7vh;
+width :70vw;
+border-radius: 10px;
+font-size: larger;
+padding: 0vw 1vw;
+}
+
+
+.SearchComponent{
+height : 10vh;
+width:98vw;
+box-shadow: 5px 5px 5px gray;
+}
+
+#SearchButton{
+  height:8vh;
+  width :10vw;
+  border-radius: 10px;
+  background-color: darkorchid;
 }
 
 @media (prefers-reduced-motion: no-preference) {
